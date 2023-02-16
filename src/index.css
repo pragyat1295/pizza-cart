@@ -11,3 +11,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cart_layout {
+  margin: 5% auto;
+  border: 2px solid black;
+  width: 60%;
+}
+
+.head_layout {
+  margin: 5%;
+}
+
+.pizza_head {
+  font-size: 7vh;
+  font-weight: 600;
+
+}
+
+.heading {
+  font-size: 5vh;
+}
+
+/* .pizza_desc {
+
+} */
+
+.order_summary {
+  align-content: center;
+  margin-top: 5%;
+}
+
+.margin_btn {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 50%;
+}
+.btn {
+  background: none;
+  border: 3px solid black;
+  min-width: 30px;
+  min-height: 30px;
+  border-radius: 0;
+}
+
+.count {
+  margin: auto;
+  font-size: 3vh;
+}
+
+.btn:hover {
+
+    background: none;
+    border: 2px solid black;
+}
+
+.amount_panel {
+  display: grid;
+  justify-items: stretch;
+  justify-content: end;
+  padding-right: 5%;
+}
+
+.margin_ {
+  margin-right: 8%;
+}
+
+.discount {
+  color:rgb(2, 130, 165);
+  font-weight: bold;
+  display: flex;
+}
+
+.payment {
+  color: red;
+  font-weight: bold;
+  display: flex;
+}
+
+.discount_input {
+  color:rgb(2, 130, 165);
+  border: 2px solid rgb(2, 130, 165);
+  width: 40%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
